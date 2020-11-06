@@ -9,7 +9,7 @@ public class NonNestedStatic
         System.out.println("outerClassX = " + OuterClassForStatic.outerClassX);
 
         // cannot access private static member
-        System.out.println("OuterClass' private int outerPrivateInt = " + OuterClassForStatic.outerPrivateInt);
+        //System.out.println("OuterClass' private int outerPrivateInt = " + OuterClassForStatic.outerPrivateInt);
 
         // The only way to reference outerClassY would be through object reference
         OuterClassForStatic oc = new OuterClassForStatic();
