@@ -1,6 +1,6 @@
-package com.gamesys.nestedclassesdemo.samples.anonymous.interfacesample.impl;
+package com.gamesys.nestedclassesdemo.samples.innerclass.anonymous.interfacesample.impl;
 
-import com.gamesys.nestedclassesdemo.samples.anonymous.interfacesample.HeightPrinter;
+import com.gamesys.nestedclassesdemo.samples.innerclass.anonymous.interfacesample.HeightPrinter;
 
 class MyHeight implements HeightPrinter {
     @Override

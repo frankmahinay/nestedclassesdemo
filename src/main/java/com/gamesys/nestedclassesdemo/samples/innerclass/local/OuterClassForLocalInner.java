@@ -1,4 +1,4 @@
-package com.gamesys.nestedclassesdemo.samples.local;
+package com.gamesys.nestedclassesdemo.samples.innerclass.local;
 
 public class OuterClassForLocalInner
 { 
@@ -7,7 +7,7 @@ public class OuterClassForLocalInner
     {
         // Note that local variable(sum) must be final till JDK 7
         // hence this code will work only in JDK 8 
-        int sum = 20; 
+        int sum = 20;
           
         // Local inner Class inside method 
         class Inner

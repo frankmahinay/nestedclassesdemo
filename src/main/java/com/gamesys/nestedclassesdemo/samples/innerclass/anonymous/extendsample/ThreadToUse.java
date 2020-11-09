@@ -1,4 +1,4 @@
-package com.gamesys.nestedclassesdemo.samples.anonymous.extendsample;
+package com.gamesys.nestedclassesdemo.samples.innerclass.anonymous.extendsample;
 
 class ThreadToUse extends Thread
 {

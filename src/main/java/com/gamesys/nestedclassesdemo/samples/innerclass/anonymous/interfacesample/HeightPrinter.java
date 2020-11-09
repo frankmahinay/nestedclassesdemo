@@ -1,4 +1,4 @@
-package com.gamesys.nestedclassesdemo.samples.anonymous.interfacesample;
+package com.gamesys.nestedclassesdemo.samples.innerclass.anonymous.interfacesample;
 
 public interface HeightPrinter
 {
