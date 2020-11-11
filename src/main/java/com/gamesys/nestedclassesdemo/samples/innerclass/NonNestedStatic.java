@@ -3,7 +3,7 @@ package com.gamesys.nestedclassesdemo.samples.innerclass;
 public class NonNestedStatic
 {
     // displays properties outerClassX, outerClassY and outerPrivateInt
-    static void display()
+    public static void display()
     {
         // can access static member of outer class
         System.out.println("outerClassX = " + OuterClassForStatic.outerClassX);

@@ -12,10 +12,10 @@ public class OuterClassForStatic
     private static int outerPrivateInt = 30; 
       
     // static nested class 
-    static class StaticNestedClass
+    public static class StaticNestedClass
     { 
         // displays properties outerClassX, outerClassY and outerPrivateInt
-        static void display()
+        public static void display()
         { 
             // can access static member of outer class 
             System.out.println("outerClassX = " + outerClassX); 
