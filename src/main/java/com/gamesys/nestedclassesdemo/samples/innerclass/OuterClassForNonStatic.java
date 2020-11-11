@@ -1,6 +1,6 @@
 package com.gamesys.nestedclassesdemo.samples.innerclass;
 
-class OuterClassForNonStatic
+public class OuterClassForNonStatic
 {  
     // static member 
     static int outerClassX = 10; 
@@ -12,9 +12,9 @@ class OuterClassForNonStatic
     private int outerPrivateInt = 30;
       
     // inner class 
-    class InnerClass 
+    public class InnerClass
     { 
-        void display() 
+        void display()
         { 
             // can access static member of outer class 
             System.out.println("outerClassX = " + outerClassX); 
