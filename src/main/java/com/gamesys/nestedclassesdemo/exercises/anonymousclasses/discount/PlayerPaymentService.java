@@ -10,7 +10,8 @@ public class PlayerPaymentService
         //subtract discounts, if any
         if (SPECIAL_PLAYER.equals(playerType))
         {
-            /* USE AN ANONYMOUS CLASS IMPLEMENTATION HERE */
+            /** USE AN ANONYMOUS CLASS IMPLEMENTATION HERE, and
+             * use DiscountCalculator's BASE_PERCENT_DISCOUNT to arrive at the value to assign to playerPayment */
             DiscountCalculator specialDiscount = new DiscountCalculatorForSpecialImpl();
             playerPayment = specialDiscount.calculateDiscount(playerPayment);
         }
