@@ -12,7 +12,13 @@ public class PlayerPaymentService
         {
             /** USE AN ANONYMOUS CLASS IMPLEMENTATION HERE, and
              * use DiscountCalculator's BASE_PERCENT_DISCOUNT to arrive at the value to assign to playerPayment */
-            DiscountCalculator specialDiscount = new DiscountCalculatorForSpecialImpl();
+
+            DiscountCalculator specialDiscount = new DiscountCalculator() {
+                @Override
+                public double calculateDiscount(double initialCost) {
+                    return initialCost * BASE_PERCENT_DISCOUNT;
+                }
+            };
             playerPayment = specialDiscount.calculateDiscount(playerPayment);
         }
 
