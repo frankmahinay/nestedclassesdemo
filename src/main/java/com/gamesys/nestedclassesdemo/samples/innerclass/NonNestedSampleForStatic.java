@@ -1,6 +1,6 @@
 package com.gamesys.nestedclassesdemo.samples.innerclass;
 
-public class NonNestedStatic
+public class NonNestedSampleForStatic
 {
     // displays properties outerClassX, outerClassY and outerPrivateInt
     public static void display()
