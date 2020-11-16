@@ -20,4 +20,16 @@ class ColorRender
     {
         System.out.println("Rendering a " + color + "object");
     }
+
+    public static void main(String[] args) {
+
+        ColorRender colorRender = new ColorRender("blue")
+        {
+            public void printColor()
+            {
+                System.out.println("Rendering a new " + color + " object");
+            }
+        };
+        colorRender.printColor();
+    }
 }
